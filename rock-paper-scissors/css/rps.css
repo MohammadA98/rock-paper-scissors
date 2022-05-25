@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  animation: background 10s cubic-bezier(1,0,0.5,1) infinite;
+}
+
+
+
+@keyframes background {
+  0% { background-color: #f99; }
+  33% { background-color: #9f9; }
+  67% { background-color: #99f; }
+  100% { background-color: #f99; }
+}
+
+.buttons {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
